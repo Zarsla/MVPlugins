@@ -23,6 +23,8 @@ $gameParty.setItem($dataArmors[3], 4, true);
 This will change the number of armor id 3 to 4
 and it will inculded equipped armors.
 
+Place this under all item/weapon/armor manipulating plugins.
+
 */
 
 Game_Party.prototype.setItem = function(item, amount, includeEquip) {
