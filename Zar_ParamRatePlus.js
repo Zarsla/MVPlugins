@@ -15,6 +15,7 @@ This plugin gives you the ability, to
 manipulate that param rate just as
 you would flat base parameters in game.
 
+
 Parameter Ids
 0 - mhp (max hit points)
 1 - mmp (max magic points)
@@ -47,10 +48,46 @@ Plugin Commands:
     Decreases parameter rate 4, aka defense rate, 
     for the fourth party member by 20%		
 
+Script Calls:
+
+Params Rate Plus:
+        battler.paramRatePlus(paramId)
+
+        where battler is the actor or enemy.
+        where paramId is the Parameter Id
+        where value is the amount being added,
+        to decrease a value use -value.
+        Also use decimal values for the value, 
+        ie 0.10, for 10%
+
+        This will return the parameter rate
+        plus for parameter parameId
+
+Add Param Rate
+        battler.addParamRate(paramId, value)
+        
+        where battler is the actor or enemy.
+        where paramId is the Parameter Id
+        where value is the amount being added,
+        to decrease a value use -value.
+        Also use decimal values for the value, 
+        ie 0.10, for 10%
+
+        This will change the parameter rate
+        for parameter parameId, by value 
+        amount.
+
+Clears Param Rate Plus
+        
+        battler.clearParamRatePlus()
+
+        where battler is the actor or enemy.    
+
+        refresesh/clears all the ParamRatePlus.
 
 Changelog
-  v 1.0 plugin created!
-
+  v 1.0 plugin created
+  
 */
 
 var JSONSuperParse = function (string) {
