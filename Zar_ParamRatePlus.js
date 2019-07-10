@@ -177,7 +177,7 @@ Game_Interpreter.prototype.pluginCommand = function(command, args) {
             $gameActors.actor(args[0]).addParamRate(args[1], -$gameVariables.value(args[2])*0.01);
     } else if(command === 'DecreaseParamRateVariableMember'){
             args[0] -= 1;
-            $gameParty.members()[args[0]].addParamRate(args[1], -$gameVariables.value(args[2] * 0.01);
+            $gameParty.members()[args[0]].addParamRate(args[1], -$gameVariables.value(args[2]) * 0.01);
     }
 };
 
