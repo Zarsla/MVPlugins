@@ -94,7 +94,7 @@ Plugin Commands:
 Script Calls:
 
 Params Rate Plus:
-        battler.paramRatePlus(paramId)a
+        battler.paramRatePlus(paramId)
         where battler is the actor or enemy.
         where paramId is the Parameter Id
         where value is the amount being added,
