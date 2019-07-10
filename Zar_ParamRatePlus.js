@@ -86,8 +86,8 @@ Clears Param Rate Plus
         refresesh/clears all the ParamRatePlus.
 
 Changelog
-  v 1.0 plugin created
-  
+  v 1.0 plugin created!
+
 */
 
 var JSONSuperParse = function (string) {
