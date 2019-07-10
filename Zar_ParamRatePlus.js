@@ -5,6 +5,16 @@
 
 @help
 
+The Parameter Rate is the the value you
+see in the database, in the traits section,
+under param, under parameter. Where
+you can alter the base parameters
+by changing that percentacge value.
+
+This plugin gives you the ability, to
+manipulate that param rate just as
+you would flat base parameters in game.
+
 Parameter Ids
 0 - mhp (max hit points)
 1 - mmp (max magic points)
