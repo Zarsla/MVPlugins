@@ -18,18 +18,20 @@ exp.
 enemy.setBonusExp(value);
 sets the bonus exp variable to a specfic value
 
+where enemy is the target or $gameTroop.members()[x] or b, etc.
+
 for example:
 A state that doubles an enemies exp:
 
 Use yanfly buff states core:
 
 apply notetag:
-var inc = enmey.enemy().exp
-enemy.setBonusExp(inc);
+var inc = target.enemy().exp
+target.setBonusExp(inc);
 
 remove notetag:
 var inc = 0;
-enemy.setBonusExp(inc);
+target.setBonusExp(inc);
 
 
 ToS:
